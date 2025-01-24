@@ -42,7 +42,7 @@ const conversation = {
     },
     {
       id: 5,
-      sender: "Certainly, I'll continue the text stream from the cut-off point:
+      sender: "Certainly, I'll continue the text stream from the cut-off point",
 
 timestamp: "2024-02-14T10:45:00Z",
     },
