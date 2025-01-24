@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
-import { MessageList } from "@/components/buyer/message-list"
-import { MessageView } from "@/components/buyer/message-view"
+import { MessageList } from "@/components/message-list"
+import { MessageView } from "@/components/message-view"
 
 export const metadata: Metadata = {
   title: "Mis Mensajes | ServiciosPro",
