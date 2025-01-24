@@ -1,7 +1,6 @@
 import { useState } from "react"
 import type { Metadata } from "next"
 import { BookingsList } from "@/components/bookings-list"
-import { BookingsCalendar } from "@/components/bookings-calendar"
 import { BookingDetails } from "@/components/booking-details"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
@@ -19,13 +18,9 @@ export default function BookingsPage() {
       <Tabs defaultValue="list" className="w-full">
         <TabsList className="grid w-full grid-cols-2 max-w-[400px]">
           <TabsTrigger value="list">Lista</TabsTrigger>
-          <TabsTrigger value="calendar">Calendario</TabsTrigger>
         </TabsList>
         <TabsContent value="list">
           <BookingsList onBookingSelect={setSelectedBooking} />
-        </TabsContent>
-        <TabsContent value="calendar">
-          <BookingsCalendar onBookingSelect={setSelectedBooking} />
         </TabsContent>
       </Tabs>
       {selectedBooking && <BookingDetails booking={selectedBooking} onClose={() => setSelectedBooking(null)} />}
