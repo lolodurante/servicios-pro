@@ -20,8 +20,8 @@ export default function LoginPage() {
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
             <p className="text-lg">
-              "Esta plataforma me ha ayudado a expandir mi negocio y conectar con nuevos clientes. Realmente ha
-              transformado la manera en que trabajo."
+              &quot;Esta plataforma me ha ayudado a expandir mi negocio y conectar con nuevos clientes. Realmente ha
+              transformado la manera en que trabajo.&quot;
             </p>
             <footer className="text-sm">Carlos Rodríguez - Electricista Profesional</footer>
           </blockquote>

@@ -14,7 +14,7 @@ export function ServiceFilters() {
   const handleLocation = () => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
+        () => {
           toast.success("Ubicación actualizada")
           // Aquí se pueden usar position.coords.latitude y position.coords.longitude
           // para filtrar servicios por proximidad

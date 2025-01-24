@@ -37,7 +37,7 @@ const bookings = [
   },
 ]
 
-export function BookingsList({ onBookingSelect }: { onBookingSelect: (booking: any) => void }) {
+export function BookingsList({ onBookingSelect }: { onBookingSelect: (booking: unknown) => void }) {
   const [sortColumn, setSortColumn] = useState<string | null>(null)
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc")
 

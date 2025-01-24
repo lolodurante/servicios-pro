@@ -42,7 +42,7 @@ export function ProfessionalProfileForm() {
     defaultValues,
   })
 
-  function onSubmit(data: ProfessionalProfileFormValues) {
+  function onSubmit() {
     toast.success("Perfil profesional actualizado correctamente")
   }
 

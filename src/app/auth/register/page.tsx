@@ -20,8 +20,8 @@ export default function RegisterPage() {
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
             <p className="text-lg">
-              "Como cliente, encontrar profesionales confiables nunca había sido tan fácil. El proceso es simple y los
-              resultados son excelentes."
+              &quot;Como cliente, encontrar profesionales confiables nunca había sido tan fácil. El proceso es simple y los
+              resultados son excelentes.&quot;
             </p>
             <footer className="text-sm">Ana García - Cliente Satisfecha</footer>
           </blockquote>

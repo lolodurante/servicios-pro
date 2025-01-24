@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { BookingsList } from "@/components/bookings-list"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const metadata: Metadata = {

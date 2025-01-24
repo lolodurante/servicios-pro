@@ -9,7 +9,6 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "sonner"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Label } from "@/components/ui/label"
 import { Card, CardContent } from "@/components/ui/card"
 import { User, Mail, Phone, MapPin, FileText } from "lucide-react"
 
@@ -66,7 +65,7 @@ export function ProfileForm() {
     defaultValues,
   })
 
-  function onSubmit(data: ProfileFormValues) {
+  function onSubmit() {
     toast.success("Perfil actualizado correctamente")
   }
 
