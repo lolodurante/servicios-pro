@@ -1,8 +1,8 @@
 import { useState } from "react"
 import type { Metadata } from "next"
-import { BookingsList } from "@/components/buyer/bookings-list"
-import { BookingsCalendar } from "@/components/buyer/bookings-calendar"
-import { BookingDetails } from "@/components/buyer/booking-details"
+import { BookingsList } from "@/components/bookings-list"
+import { BookingsCalendar } from "@/components/bookings-calendar"
+import { BookingDetails } from "@/components/booking-details"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const metadata: Metadata = {

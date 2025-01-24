@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
-import { ProfileForm } from "@/components/buyer/profile-form"
-import { ProfessionalProfileForm } from "@/components/buyer/professional-profile-form"
+import { ProfileForm } from "@/components/profile-form"
+import { ProfessionalProfileForm } from "@/components/professional-profile-form"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent } from "@/components/ui/card"
 

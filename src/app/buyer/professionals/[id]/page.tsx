@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
-import { ProfessionalProfile } from "@/components/professional/profile"
-import { ReviewsList } from "@/components/professional/reviews-list"
-import { ServiceGallery } from "@/components/professional/service-gallery"
+import { ProfessionalProfile } from "@/components/profile"
+import { ReviewsList } from "@/components/reviews-list"
+import { ServiceGallery } from "@/components/service-gallery"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const metadata: Metadata = {
